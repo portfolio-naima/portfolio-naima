@@ -25,13 +25,19 @@ nav{
 	padding-top: 30px;
 	padding-bottom: 30px;
 	padding-left: 10%;
-	padding-right: 10%;
-	text-align: center;
+	text-align: right;
 	background-color: #f7f7f7;
 }
 
+nav img{
+	width: 100px;
+	float: left;
+	margin-top: -20px;
+
+}
+
 nav a{
-	color: #333333;
+	color: #D0D3D4;
 	margin-right: 50px;
 	marding-left: 50px;
 	text-decoration: none;
@@ -123,13 +129,16 @@ h2{
 	text-align: center;
 }
 
-.portfolio h2{
-
+.portfolio h4{
+	margin-bottom: 10px;
+	text-align: left;
 }
 
 .portfolio p{
 	color: #333333;
-	font-weight: 300;
+	font-family: "lora";
+	font-size: 12px;
+	text-align: left;
 }
 
 .grille-travail{
@@ -141,7 +150,7 @@ h2{
 .portfolio article{
 	border: 2px solid #f7f7f7;
 	border-radius: 15px;
-	padding: 10px 5%;
+	padding: 20px 10%;
 }
 
 
